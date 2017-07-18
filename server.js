@@ -39,6 +39,7 @@ app.route('/')
 		  res.sendFile(process.cwd() + '/views/index.html');
     })
 
+//my timestamp module
 app.get('/*', time);
 
 // Respond not found to all the wrong routes
